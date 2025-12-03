@@ -2,13 +2,13 @@
 
 const About = () => {
   return (
-    <div className="bg-white py-20">
-      <div className="container mx-auto px-6 max-w-4xl">
-        <h1 className="text-4xl font-bold text-center text-gray-900 mb-12">
+    <div className="py-20 bg-white">
+      <div className="container max-w-4xl px-6 mx-auto">
+        <h1 className="mb-12 text-4xl font-bold text-center text-gray-900">
           About Us
         </h1>
         
-        <div className="text-lg text-gray-700 space-y-6 text-left">
+        <div className="space-y-6 text-lg text-left text-gray-700">
           <p>
             At Trustlex Partners, we believe good legal advice should be clear, practical, and built on trust.
           </p>

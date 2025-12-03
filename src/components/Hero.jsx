@@ -1,33 +1,46 @@
-// src/components/Hero.js
+// src/components/Hero.jsx
 
 import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="text-white bg-[url('/drop.png')] bg-cover bg-center">
-      
-        <div className="container mx-auto px-16 py-24 md:py-32">
-          <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+    <div className="bg-[#AAC4F5] bg-cover bg-center">
+      <div className="container px-8 py-24 mx-auto md:px-16 md:py-32">
+        {/* Flex Container: Stacks vertically on mobile, row on desktop */}
+        <div className="flex flex-col items-center justify-between gap-12 md:flex-row">
+          
+          {/* Left Side: Text Content */}
+          <div className="w-full text-center md:w-1/2 md:text-left">
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 text-[#1a2340]">
               Expert Counsel.
               <br />
               Modern Solutions.
             </h1>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8">
+            <p className="text-xl md:text-2xl text-[#1a2340] mb-8">
               TrustLex Partners is a full-service law firm dedicated to
               providing strategic advice to navigate your most complex legal challenges.
             </p>
             <a
               href="/contact"
-              className="inline-block bg-white text-black font-semibold py-3 px-8 rounded-md
-                         hover:bg-gray-200 transition-colors"
+              className="inline-block bg-[#1a2340] text-[#fcfcfb] font-semibold py-3 px-8 rounded-md
+                         hover:bg-opacity-90 transition-colors shadow-lg"
             >
               Get in Touch
             </a>
           </div>
-        </div>
 
+          {/* Right Side: Image */}
+          <div className="flex justify-center w-full md:w-1/2 md:justify-end">
+            <img 
+              src="public/profile.jpg" 
+              alt="Profile" 
+              className="object-cover w-full max-w-md shadow-2xl rounded-2xl"
+            />
+          </div>
+
+        </div>
       </div>
+    </div>
   );
 };
 
