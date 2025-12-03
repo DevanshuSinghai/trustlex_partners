@@ -27,15 +27,15 @@ const Hero = () => {
             </a>
           </div>
 
-        {/* Right Side: Image */}
-          {/* Added 'md:-mt-12' to shift the image up by 3rem (48px) on desktop */}
-          <div className="w-full md:w-1/2 flex justify-center md:justify-end md:-mt-12">
+          {/* Right Side: Image */}
+          <div className="flex justify-center w-full md:w-1/2 md:justify-end">
             <img 
               src="public/profile.jpg" 
               alt="Profile" 
-              className="object-cover w-full max-w-xs shadow-2xl rounded-2xl"
+              className="object-cover w-full max-w-md shadow-2xl rounded-2xl"
             />
           </div>
+
         </div>
       </div>
     </div>
