@@ -21,12 +21,12 @@ const Header = () => {
             <img 
               src={`${import.meta.env.BASE_URL}logo.jpeg`} 
               alt="tp" 
-              className="h-12 w-auto" 
+              className="h-10 w-auto sm:h-12"
             />
             <img 
               src={`${import.meta.env.BASE_URL}name.jpeg`} 
               alt="tp" 
-              className="h-8 w-auto ml-2 mt-2" 
+              className="h-6 w-auto ml-1 mt-2 sm:h-8 sm:ml-2"
             />
           </Link>
         </div>
@@ -46,7 +46,7 @@ const Header = () => {
 
         {/* Mobile Menu Button (you would add state to control this) */}
         <div className="md:hidden">
-          <button className="text-black">
+          <button className="text-black z-50">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
             </svg>
