@@ -17,7 +17,7 @@ const Hero = () => {
               Modern Solutions.
             </h1>
             <p className="text-xl md:text-2xl text-[#1a2340] mb-8">
-              TrustLex Partners is a full-service law firm dedicated to
+              AdvTejasvigoel is a full-service law firm dedicated to
               providing strategic advice to navigate your most complex legal challenges.
             </p>
             <Link

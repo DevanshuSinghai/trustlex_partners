@@ -10,13 +10,13 @@ const Footer = () => {
         
         {/* Column 1: Brand */}
         <div>
-          <h3 className="text-2xl font-bold text-[#1a2340] mb-4">TrustLex Partners</h3>
+          <h3 className="text-2xl font-bold text-[#1a2340] mb-4">AdvTejasvigoel</h3>
           <p>Navigating the law with clarity and care.</p>
           <a 
-            href="mailto:trustlexpartners@gmail.com" 
+            href="mailto:advtejasvigoel@gmail.com" 
             className="block mt-4 hover:text-[#d4af37] break-words"
           >
-            trustlexpartners@gmail.com
+            advtejasvigoel@gmail.com
           </a>
         </div>
 
@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-[#d4af37]">
         <div className="container mx-auto px-6 py-6 text-center text-[#1a2340]">
-          <p>&copy; {new Date().getFullYear()} TrustLex Partners. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AdvTejasvigoel. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

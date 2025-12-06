@@ -15,7 +15,7 @@ const TeamBlurb = () => {
           Meet Our Partners
         </h2>
         <p className="max-w-3xl mx-auto mb-12 text-lg text-center text-gray-700">
-          At Trustlex Partners, we are proud of the diverse expertise and dedication our team brings to the table. Our partners are committed to delivering practical, reliable, and result-driven legal solutions.
+          At AdvTejasvigoel, we are proud of the diverse expertise and dedication our team brings to the table. Our partners are committed to delivering practical, reliable, and result-driven legal solutions.
         </p>
 
         <div className="grid max-w-6xl grid-cols-1 gap-8 mx-auto mb-12 md:grid-cols-2 lg:grid-cols-3">

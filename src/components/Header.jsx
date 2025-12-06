@@ -12,8 +12,8 @@ const Header = () => {
 
   return (
     // Simple white header with a bottom border
-    <header className="bg-white text-black border-b border-gray-200 sticky top-0 z-50">
-      <nav className="container mx-auto px-6 py-5 flex justify-between items-center">
+    <header className="sticky top-0 z-50 text-black bg-white border-b border-gray-200">
+      <nav className="container flex items-center justify-between px-6 py-5 mx-auto">
 
         {/* Logo */}
         <div className="flex">
@@ -21,23 +21,23 @@ const Header = () => {
             <img 
               src={`${import.meta.env.BASE_URL}logo.jpeg`} 
               alt="tp" 
-              className="h-10 w-auto sm:h-12"
+              className="w-auto h-10 sm:h-12"
             />
             <img 
-              src={`${import.meta.env.BASE_URL}name.jpeg`} 
+              src={`${import.meta.env.BASE_URL}name.jpg`} 
               alt="tp" 
-              className="h-6 w-auto ml-1 mt-2 sm:h-8 sm:ml-2"
+              className="w-auto h-6 mt-2 ml-1 sm:h-8 sm:ml-2"
             />
           </Link>
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden space-x-8 md:flex">
           {navLinks.map((link) => (
             <Link
               key={link.name}
               to={link.path}
-              className="font-medium text-gray-600 hover:text-black transition-colors"
+              className="font-medium text-gray-600 transition-colors hover:text-black"
             >
               {link.name}
             </Link>
@@ -46,7 +46,7 @@ const Header = () => {
 
         {/* Mobile Menu Button (you would add state to control this) */}
         <div className="md:hidden">
-          <button className="text-black z-50">
+          <button className="z-50 text-black">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
             </svg>

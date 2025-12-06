@@ -2,14 +2,14 @@
 
 export const team = [
     {
-      name: "Himanshu Koyarh",
+      name: "Advocate Tejasvi Goel",
       title: "Managing Partner & Co-Founder",
-      description: "Himanshu founded Trustlex Partners with the vision of creating a client-focused law practice grounded in professionalism and trust. He regularly appears before the Delhi High Court and the Supreme Court of India, handling matters on the Original Side of the Delhi High Court, including writs, appeals, and commercial disputes. In the Supreme Court, he has represented clients in Special Leave Petitions (SLPs), writs, transfer petitions, and appeals. Known for his clarity of thought, meticulous preparation, and strategic advocacy, Himanshu has built a strong reputation for dependable and effective representation at the highest judicial forums.",
+      description: "Advocate Tejasvi Goel founded AdvTejasvigoel with the vision of creating a client-focused law practice grounded in professionalism and trust. He regularly appears before the Delhi High Court and the Supreme Court of India, handling matters on the Original Side of the Delhi High Court, including writs, appeals, and commercial disputes. In the Supreme Court, he has represented clients in Special Leave Petitions (SLPs), writs, transfer petitions, and appeals. Known for his clarity of thought, meticulous preparation, and strategic advocacy, Tejasvi has built a strong reputation for dependable and effective representation at the highest judicial forums.",
     },
     {
-      name: "Rahul Khanna",
+      name: "Advocate Tejasvi Goel",
       title: "Co-Founder",
-      description: "Rahul is an expert in banking laws, cyber law, and commercial disputes, bringing over 5 years of experience to these specialized areas. He advises clients on complex financial issues, regulatory compliance, and cases involving technology-driven challenges. Rahul is known for his problem-solving approach, simplifying intricate legal issues into practical, actionable solutions. His growing practice in commercial disputes adds further depth to his portfolio, making him a versatile counsel for both individuals and businesses.",
+      description: "Advocate Tejasvi Goel is an expert in banking laws, cyber law, and commercial disputes, bringing over 5 years of experience to these specialized areas. He advises clients on complex financial issues, regulatory compliance, and cases involving technology-driven challenges. Rahul is known for his problem-solving approach, simplifying intricate legal issues into practical, actionable solutions. His growing practice in commercial disputes adds further depth to his portfolio, making him a versatile counsel for both individuals and businesses.",
     },
     {
       name: "Kamal Bhatnagar",

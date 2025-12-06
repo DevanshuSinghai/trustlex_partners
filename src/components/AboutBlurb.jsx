@@ -15,10 +15,10 @@ const AboutBlurb = () => {
         
         <div className="space-y-6 text-lg text-left text-gray-700 md:text-center">
           <p>
-          At Trustlex Partners, we believe good legal advice should be clear, practical, and built on trust. Our goal is simple: to help you solve your legal issues with confidence and peace of mind.We know that dealing with legal matters can feel overwhelming. That’s why we take the time to listen, understand your situation, and guide you step by step... At Trustlex Partners, we’re not just your lawyers—we’re your partners in navigating the law with clarity and care
+          At AdvTejasvigoel , we believe good legal advice should be clear, practical, and built on trust. Our goal is simple: to help you solve your legal issues with confidence and peace of mind.We know that dealing with legal matters can feel overwhelming. That’s why we take the time to listen, understand your situation, and guide you step by step... At AdvTejasvigoel, we’re not just your lawyers—we’re your partners in navigating the law with clarity and care
           </p>
           <p>
-            Recognized for our legal prowess and extensive expertise, TrustLex Partners 
+            Recognized for our legal prowess and extensive expertise, AdvTejasvigoel 
             excels in providing customized solutions to complex legal challenges, 
             building trust and delivering result-oriented outcomes for clients 
             across diverse sectors.
