@@ -17,10 +17,10 @@ const Contact = () => {
             Reach out to us anytime at:
           </p>
           <a
-            href="mailto:trustlexpartners@gmail.com"
+            href="mailto:advtejasvigoel@gmail.com"
             className="text-2xl font-semibold text-black hover:text-gray-700 transition-colors"
           >
-            trustlexpartners@gmail.com
+            advtejasvigoel@gmail.com
           </a>
           
           {/* Placeholder for a future contact form */}
