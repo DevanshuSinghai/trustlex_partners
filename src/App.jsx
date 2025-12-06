@@ -14,7 +14,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <Router basename='/trustlex/'>
+    <Router basename='/advTejasviGoel/'>
       {/* We use flex-col and min-h-screen to make the footer
           stick to the bottom of the page, even on short pages. */}
       <div className="flex flex-col min-h-screen bg-white">
